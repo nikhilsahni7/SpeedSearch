@@ -1,3 +1,5 @@
+// "use client";
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -20,3 +22,19 @@ export default function RootLayout({
     </html>
   );
 }
+
+// "use client";
+
+// import React from "react";
+
+// export default function RootLayout({
+//   children,
+// }: {
+//   children: React.ReactNode;
+// }) {
+//   return (
+//     <html data-theme="night">
+//       <body>{children}</body>
+//     </html>
+//   );
+// }

@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SpeedSearch: Blazing-Fast Global Search
+
+Welcome to the SpeedSearch project, a high-performance API built with Next.js, Hono, and Shadcn. This application allows you to search for countries around the globe and get instant results, powered by the Upstash Redis database.
+
+## Features
+
+- **Blazing-Fast Search**: The API built with Hono and Upstash Redis provides lightning-fast search capabilities, delivering results in milliseconds.
+- **Seamless Integration**: The project is built using Next.js, providing a seamless and efficient user experience.
+- **Responsive and Modern UI**: The user interface is designed with Shadcn, offering a clean, intuitive, and visually appealing experience.
+- **Extensible Architecture**: The codebase is structured in a way that makes it easy to build upon and extend for various search-related applications, such as product search, local business search, and more.
+
+## Screenshot
+
+![SpeedSearch Application Screenshot](./public/Screenshot%20from%202024-04-13%2020-10-11.png)
 
 ## Getting Started
 
-First, run the development server:
+To run the SpeedSearch project locally, follow these steps:
 
-```bash
-npm run dev
+    Clone the repository:
+
+    bash
+
+git clone https://github.com/your-username/speedsearch.git
+
+Navigate to the project directory:
+
+bash
+
+cd speedsearch
+
+Install the dependencies:
+
+bash
+
+npm install
+
 # or
-yarn dev
+
+yarn install
+
 # or
-pnpm dev
+
+pnpm install
+
 # or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+bun install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Start the development server:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+bash
 
-## Learn More
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    # or
+    bun dev
 
-To learn more about Next.js, take a look at the following resources:
+    Open your web browser and visit http://localhost:3000 to see the SpeedSearch application in action.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+####Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
 
-## Deploy on Vercel
+Check out the Next.js deployment documentation for more details.
+Built With
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    Next.js - The React framework for building production-ready applications.
+    Hono - A high-performance HTTP request handler for Cloudflare Workers.
+    Shadcn - A collection of accessible and customizable React components.
+    Upstash Redis - A fully-managed Redis database service.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+####Acknowledgments
+
+Special thanks to Josh for his informative video in josh tried Upstash YouTube channel, which provided valuable insights and inspiration for this project.
